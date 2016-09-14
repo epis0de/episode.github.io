@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+html {
+    height: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+}
+header, footer {
+    width: 100%;
+    background-color: #1d1d1d; 
+    min-height: 50px;
+    float:left;
+}
+header {
+    border-bottom: 2px solid silver;
+    padding: 1%;
+}
+
+footer {
+    border-top: 2px solid #737373;
+    margin-top: 10px;
+    padding: 1%;
+}
+a {
+    color: floralwhite;
+    text-decoration: none;
+    transition: all.5s ease;
+    -maz-transition: all.5s ease;
+    -webkit-transition: all.5s ease;
+    -ms-transition: all.5s ease;
+}
+hr {
+    display: block;
+    border: 0;
+    height: 1px;
+    border-top: 1px solid silver;
+}
+a:hover {
+    color: #FFFD94;
+    text-decoration: none;
+    transition: all.5s ease;
+    -maz-transition: all.5s ease;
+    -webkit-transition: all.5s ease;
+    -ms-transition: all.5s ease;
+}
+a:active {
+    color: #FF3B5F;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+/*выделение текста*/
+::selection {
+    background: rgba(92, 133, 255, 0.83);
+    color: #fff;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+#logo {
+    font-size: 30px;
+    font-family: Comic Sans MS, sans-serif;
+}
+.contacts {
+    font-size: 25px;
+    font-family: Comic Sans MS, sans-serif;
+    color: #fff;
+    margin-left: 20px;
+}
+input[type=search].search {
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    margin-left: 50px;
+}
+input[type=search].search:focus {
+    border: 2px solid #FFFC36;
+}
+
+/*стили для футера*/
+.by {
+    color: silver;
+}
+.vk {
+    margin-right: 10px;
+    
+}
+footer img {
+    width: 75%;
+}
+.wrapper:after {
+    content: "";
+    display: block;
+}
+footer, .wrapper:after {
+    height: 10px;
+}
+.wrapper {
+    min-height: 95%;
+    margin-bottom: -10px;
+}
+
+.back-img { /*картинка-фон*/
+    width: 100%;
+    max-height: 600px;
+    height: 600px;
+}
+.back-img-wrapper { /*обертка для меню*/
+    position: relative;
+    top: 25%;
+    opacity: 0.7;
+}
+.main-menu {  /*меню*/
+    background: #1d1d1d;
+    display: inline-block;
+    padding: 27px;
+    border: 1px solid #1d1d1d;
+    border-radius: 10px;
+    font-family: Comic Sans MS, sans-serif;
+}
+.menuHrefs {
+    margin-right: 10px;
+    font-size: 16px;
+}
+#center-wrap {
+    float:left;
+    width: 100%;
+}
+/*Центральный блок сайта*/
+#main-block {
+    width: 100%;
+    padding: 2% 0;
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+    margin: 20px 0;
+    float: left;
+    background-color: #F7F7F7;
+    height: 200px;
+}
+#main-block-in {
+    width: 70%;
+    text-align: center;
+    font-size: 16px;
+}
